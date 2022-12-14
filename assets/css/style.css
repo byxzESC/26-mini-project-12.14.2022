@@ -1,20 +1,46 @@
 * {
   margin: 0;
+  background-color: #F5EBE0;
   font-family: monospace;
 }
 
 header {
   width: 100%;
-  background-color: #CCD6A6;
+  height: 60px;
+  background-color: #DBA39A;
   color: black;
+  margin-bottom: 5%;
 }
 
 header h1 {
-
+  margin-left: 5%;
+  text-align: left;
+  font-size: 40px;
+  background-color: #DBA39A;
 }
 
 img {
-  margin: 5%;
+  margin: 3%;
   height: 20%;
   width: 20%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.contact-form {
+  position: relative;
+}
+
+footer {
+  postion: relative;
+  width: 100%;
+  bottom: 0px;
+  margin-top: 5%;
+  text-align: center;
+    background-color: #DBA39A;
 }
